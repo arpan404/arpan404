@@ -11,6 +11,12 @@ keymap.set("n", "x", '"_x') -- delete single character without copying it to reg
 keymap.set("n", "<leader>+", "<C-a>") -- increment number by 1
 keymap.set("n", "<leader>-", "<C-x>") -- decrement number by 1
 
+-- Window navigation
+keymap.set("n", "<leader>wh", "<C-w>h") -- move to left window
+keymap.set("n", "<leader>wj", "<C-w>j") -- move to window below
+keymap.set("n", "<leader>wk", "<C-w>k") -- move to window above
+keymap.set("n", "<leader>wl", "<C-w>l") -- move to right window
+
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width
