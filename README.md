@@ -1,10 +1,10 @@
-# 👋 Hi, I'm Arpan Bhandari!
+### 👋 Hi, I'm Arpan Bhandari!
 
-### 🧑‍💻 Developer | 🎓 Computer Science Student
+#### 🧑‍💻 Developer | 🎓 Computer Science Student
 
 ---
 
-## 🚀 About Me
+### 🚀 About Me
 
 - 💻 I'm a **Computer Science student** driven by the desire to solve real-world problems through impactful software solutions.
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📫 Let's Connect!
+### 📫 Let's Connect!
 <div align="left">
   <a href="https://www.linkedin.com/in/arpan404" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn logo" />
@@ -35,9 +35,9 @@
 
 ---
 
-## 🐍 Activity & Contributions
+### 🐍 Activity & Contributions
 
-I thrive on collaboration and sharing knowledge to build amazing projects. Let’s connect for brainstorming, project ideas, feedback, or simply geeking out over code!
+I believe collaboration sparks innovation. If you’ve got ideas, feedback, or opportunities to work together, feel free to reach out.  
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake-dark.svg" />
