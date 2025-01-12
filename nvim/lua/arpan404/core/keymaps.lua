@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap -- for conciseness
 
 
-keymap.set("i", "kl", "<ESC>") -- go to normal mode using "jk" instead of ESC key 
+keymap.set("i", "jk", "<ESC>") -- go to normal mode using "jk" instead of ESC key 
 
 keymap.set("n", "<leader>nh", ":nohl<CR>") -- unselect the searched items
 
@@ -22,4 +22,12 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") -- got to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") -- got to previous tab
 
+-- telescope
+keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files
+keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find text
+keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find current word
+keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- show open buffers
 
+-- nvim-tree
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
+keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>") -- find current file in tree

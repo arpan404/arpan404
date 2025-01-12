@@ -30,6 +30,52 @@ return packer.startup(function(use)
 
   use("christoomey/vim-tmux-navigator")
 
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = 'nvim-tree/nvim-web-devicons',
+    cmd = { "NvimTreeToggle", "NvimTreeFocus" },  -- lazy load on these commands
+    config = function()
+      require("nvim-tree").setup({})
+    end
+  }
+
+  use("nvim-tree/nvim-web-devicons")
+
+  use({
+    'nvim-telescope/telescope.nvim', tag = '0.1.5',
+    requires = { 
+      {'nvim-lua/plenary.nvim'},
+      {'nvim-tree/nvim-web-devicons'}
+    }
+  })
+
+  -- LSP Manager
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+  }
+
+  -- LSP plugins
+  use({
+    "glepnir/lspsaga.nvim",
+    branch = "main",
+    requires = {
+      { "nvim-tree/nvim-web-devicons" },
+      { "nvim-treesitter/nvim-treesitter" },
+    },
+  })
+
+
+  -- Autocompletion
+  use("hrsh7th/nvim-cmp")
+  use("hrsh7th/cmp-buffer")
+  use("hrsh7th/cmp-path")
+  use("hrsh7th/cmp-nvim-lsp")
+  use("L3MON4D3/LuaSnip")
+  use("saadparwaiz1/cmp_luasnip")
+  use("rafamadriz/friendly-snippets")
+
   if packer_bootstrap then
     require("packer").sync()
   end
