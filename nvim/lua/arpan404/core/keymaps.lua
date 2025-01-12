@@ -22,6 +22,8 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") -- got to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") -- got to previous tab
 
+keymap.set("n", "<leader>r", "<C-r>") -- redo
+
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find text
