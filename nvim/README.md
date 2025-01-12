@@ -12,7 +12,7 @@ To try out my Neovim configuration, follow these steps:
     cd arpan404/link
     ```
 
-3. **Run the main Go program:**
+3. **Run the linker:**
     ```sh
     go run main.go
     ```
