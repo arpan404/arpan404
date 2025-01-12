@@ -22,6 +22,9 @@
   <a href="https://www.linkedin.com/in/arpan404" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn logo" />
   </a>
+  <a href="https://www.arpanbhandari.com.np/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=X(Twitter)&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="X logo" />
+  </a>
   <a href="https://www.instagram.com/the_d3vs" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram logo" />
   </a>
