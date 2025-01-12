@@ -7,7 +7,7 @@ To try out my Neovim configuration, follow these steps:
     git clone https://github.com/arpan404/arpan404.git
     ```
 
-2. **Navigate to the project directory:**
+2. **Navigate to the linker directory:**
     ```sh
     cd arpan404/link
     ```
