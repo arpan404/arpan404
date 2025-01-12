@@ -14,11 +14,24 @@ local on_attach = function(client, bufnr)
   keymap.set("n", "<leader>d", "<cmd>Lspsaga show_cursor_diagnostics<CR>", opts)
   keymap.set("n", "[d", "<cmd>Lspsaga diagnostic_jump_prev<CR>", opts)
   keymap.set("n", "]d", "<cmd>Lspsaga diagnostic_jump_next<CR>", opts)
-  keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts)
+  local saga_ok, saga = pcall(require, "lspsaga.hover")
+  if saga_ok then
+    vim.keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts)
+  else
+    vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
+  end
 end
 
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
+-- Configure diagnostic signs with icons
+local signs = { Error = " ", Warn = " ", Hint = " ", Info = " " }
+for type, icon in pairs(signs) do
+  local hl = "DiagnosticSign" .. type
+  vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
+end
+
+-- Configure LSP servers
 lspconfig["lua_ls"].setup({
   capabilities = capabilities,
   on_attach = on_attach,
@@ -32,4 +45,34 @@ lspconfig["ts_ls"].setup({
 lspconfig["gopls"].setup({
   capabilities = capabilities,
   on_attach = on_attach,
+})
+
+lspconfig["html"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+})
+
+lspconfig["cssls"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+})
+
+lspconfig["eslint"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+})
+
+-- Configure diagnostics
+vim.diagnostic.config({
+  virtual_text = true,
+  signs = true,
+  update_in_insert = false,
+  underline = true,
+  severity_sort = true,
+  float = {
+    border = "rounded",
+    source = "always",
+    header = "",
+    prefix = "",
+  },
 })

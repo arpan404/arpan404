@@ -40,6 +40,12 @@ return packer.startup(function(use)
   }
 
   use("nvim-tree/nvim-web-devicons")
+  
+  -- Statusline
+  use({
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  })
 
   use({
     'nvim-telescope/telescope.nvim', tag = '0.1.5',
@@ -60,21 +66,17 @@ return packer.startup(function(use)
   use({
     "glepnir/lspsaga.nvim",
     branch = "main",
-    requires = {
-      { "nvim-tree/nvim-web-devicons" },
-      { "nvim-treesitter/nvim-treesitter" },
-    },
+    config = function()
+      require("lspsaga").setup({})
+    end,
   })
 
 
   -- Autocompletion
   use("hrsh7th/nvim-cmp")
-  use("hrsh7th/cmp-buffer")
-  use("hrsh7th/cmp-path")
   use("hrsh7th/cmp-nvim-lsp")
   use("L3MON4D3/LuaSnip")
   use("saadparwaiz1/cmp_luasnip")
-  use("rafamadriz/friendly-snippets")
 
   if packer_bootstrap then
     require("packer").sync()
