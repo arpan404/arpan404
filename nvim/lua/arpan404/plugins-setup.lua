@@ -78,6 +78,12 @@ return packer.startup(function(use)
   use("L3MON4D3/LuaSnip")
   use("saadparwaiz1/cmp_luasnip")
 
+  -- Tree-sitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
+
   if packer_bootstrap then
     require("packer").sync()
   end
