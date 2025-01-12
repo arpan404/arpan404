@@ -32,35 +32,14 @@ for type, icon in pairs(signs) do
 end
 
 -- Configure LSP servers
-lspconfig["lua_ls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
+local servers = { "lua_ls", "ts_ls", "gopls", "html", "cssls", "eslint", "tailwindcss" }
 
-lspconfig["ts_ls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
-lspconfig["gopls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
-lspconfig["html"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
-lspconfig["cssls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
-lspconfig["eslint"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
+for _, lsp in ipairs(servers) do
+  lspconfig[lsp].setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+  })
+end
 
 -- Configure diagnostics
 vim.diagnostic.config({
