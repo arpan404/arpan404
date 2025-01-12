@@ -2,9 +2,8 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
--- general keymaps
 
-keymap.set("i", "jk", "<ESC>") -- go to normal mode using "jk" instead of ESC key 
+keymap.set("i", "kl", "<ESC>") -- go to normal mode using "jk" instead of ESC key 
 
 keymap.set("n", "<leader>nh", ":nohl<CR>") -- unselect the searched items
 
