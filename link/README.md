@@ -1,6 +1,6 @@
 # Neovim Configuration Linker
 
-This program links your Neovim configuration from this directory to your `.config` folder.
+This program links thw Neovim configuration from this directory to `.config` folder.
 
 ## Usage
 
