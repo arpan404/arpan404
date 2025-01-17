@@ -13,7 +13,7 @@
 - 🛠️ **Versatile Tech Stack**: I’m not tied to specific tools or technologies. One day, I’m coding in TypeScript, and the next, I’m exploring Assembly. For me, the nature of the problem defines the tools I use, not my past experiences.
 
 - 🚧 **Current Project**:  
-  Working on **Joor**, a backend framework designed to streamline development processes. Stay tuned—it's coming to open source soon!
+  Working on **Joor**, a backend framework designed to streamline development processes. Stay tuned—its alpha version is going to be released soon!
 
 ---
 
