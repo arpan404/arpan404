@@ -1,42 +1,51 @@
 name: Snake Animation
 
 on:
-  # Schedule the workflow to run daily at midnight UTC
+  # Run every 3 hours to keep the animation fresh
   schedule:
-    - cron: "0 0 * * *"
-  # Allow manual triggering of the workflow
+    - cron: "0 */3 * * *"
+  # Allow manual runs from Actions tab
   workflow_dispatch:
-  # Trigger the workflow on pushes to the main branch
+  # Refresh on profile README updates
   push:
     branches:
       - main
+    paths:
+      - README.md
+      - .github/workflows/snake.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
-      # Step 2: Generate the snake animations
+        uses: actions/checkout@v4
+
       - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
-          # GitHub username to generate the animation for
           github_user_name: ${{ github.repository_owner }}
-          # Define the output files and their configurations
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake-dark-dimmed.svg?palette=github-dark-dimmed
+            dist/ocean.gif?color_snake=%230B7285&color_dots=%23D6EAF3,%2394CDE3,%2364A9D3,%233B89C0,%232968A9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # Step 3: Deploy the generated files to the 'output' branch
+
       - name: Deploy to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          # Optionally, you can set a custom commit message
+          force_orphan: true
           commit_message: "Update snake animation [skip ci]"

@@ -5,10 +5,14 @@
 <p align="center">
   <b>AI systems & infrastructure • Distributed systems • Performance • Developer tooling</b>
 </p>
-
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake-dark-dimmed.svg" />
 <p align="center">
   <a href="https://www.linkedin.com/in/arpan404" target="_blank">
     <picture>
+  <br/><br/>
+  <a href="https://github.com/arpan404/arpan404/actions/workflows/snake.yml">
+    <img src="https://github.com/arpan404/arpan404/actions/workflows/snake.yml/badge.svg" alt="Snake workflow status" />
+  </a>
       <source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler:brand-linkedin.svg?color=%23ffffff" />
       <img src="https://api.iconify.design/tabler:brand-linkedin.svg?color=%23111827" width="28" height="28" alt="LinkedIn" />
     </picture>
@@ -117,7 +121,7 @@ If you want to collaborate, ship something ambitious, or exchange ideas, feel fr
 <div align="center">
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake-dark-dimmed.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake.svg" />
     <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake.svg" />
   </picture>
