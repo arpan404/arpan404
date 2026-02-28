@@ -50,3 +50,8 @@ keymap.set("o", "af", "<cmd>lua require'nvim-treesitter.textobjects'.select.sele
 keymap.set("o", "if", "<cmd>lua require'nvim-treesitter.textobjects'.select.select_textobject('@function.inner')<CR>") -- select inner part of a function
 keymap.set("o", "ac", "<cmd>lua require'nvim-treesitter.textobjects'.select.select_textobject('@class.outer')<CR>") -- select outer part of a class
 keymap.set("o", "ic", "<cmd>lua require'nvim-treesitter.textobjects'.select.select_textobject('@class.inner')<CR>") -- select inner part of a class
+
+
+-- LSP based functionalities
+keymap.set("n", "K", vim.lsp.buf.hover, {buffer= 0})
+keymap.set("n", "gy", vim.lsp.buf.type_definition, {buffer=0})

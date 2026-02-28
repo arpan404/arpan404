@@ -1,60 +1,126 @@
-### 👋 Hi, I'm Arpan Bhandari!
+<div align="center">
 
-#### 🧑‍💻 Developer | 🎓 Computer Science Student
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:0B7285&height=140&section=header&text=Arpan%20Bhandari&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="Arpan Bhandari" width="100%" />
 
----
+<p align="center">
+  <b>AI systems & infrastructure • Distributed systems • Performance • Developer tooling</b>
+</p>
 
-### 🚀 About Me
-
-- 💻 I'm a **Computer Science student** driven by the desire to solve real-world problems through impactful software solutions.
-
-- 🌟 **Programming** is my tool of choice for bringing ideas to life and overcoming challenges.
-
-- 🛠️ **Versatile Tech Stack**: I’m not tied to specific tools or technologies. One day, I’m coding in TypeScript, and the next, I’m exploring Assembly. For me, the nature of the problem defines the tools I use, not my past experiences.
-
-- 🚧 **Current Project**:  
-  Working on **Joor**, a backend framework designed to streamline development processes. Stay tuned—its alpha version is going to be released soon!
-
----
-
-### 📫 Let's Connect!
-<div align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/arpan404" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn logo" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler:brand-linkedin.svg?color=%23ffffff" />
+      <img src="https://api.iconify.design/tabler:brand-linkedin.svg?color=%23111827" width="28" height="28" alt="LinkedIn" />
+    </picture>
   </a>
-  <a href="https://www.arpanbhandari.com.np/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=X(Twitter)&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="X logo" />
+  &nbsp;&nbsp;
+  <a href="https://x.com/arpan4o4/" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler:brand-x.svg?color=%23ffffff" />
+      <img src="https://api.iconify.design/tabler:brand-x.svg?color=%23111827" width="28" height="28" alt="X" />
+    </picture>
   </a>
-  <a href="https://www.instagram.com/the_d3vs" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram logo" />
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/arpan4o4" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler:brand-instagram.svg?color=%23ffffff" />
+      <img src="https://api.iconify.design/tabler:brand-instagram.svg?color=%23111827" width="28" height="28" alt="Instagram" />
+    </picture>
   </a>
-  <a href="https://www.arpanbhandari.com.np/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=firefox&label=&color=FF7139&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Portfolio logo" />
+  &nbsp;&nbsp;
+  <a href="https://arpan.sh/" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler:code.svg?color=%23ffffff" />
+      <img src="https://api.iconify.design/tabler:code.svg?color=%23111827" width="28" height="28" alt="Portfolio" />
+    </picture>
   </a>
-  <a href="mailto:arpanworkmail7@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Email logo" />
+  &nbsp;&nbsp;
+  <a href="mailto:contact@arpan.sh" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.iconify.design/tabler:mail.svg?color=%23ffffff" />
+      <img src="https://api.iconify.design/tabler:mail.svg?color=%23111827" width="28" height="28" alt="Email" />
+    </picture>
   </a>
+</p>
+
 </div>
 
----
+<br />
 
-### 🐍 Activity & Contributions
+### ❖ About
 
-I believe collaboration sparks innovation. If you’ve got ideas, feedback, or opportunities to work together, feel free to reach out.  
+Software engineer focused on **AI systems and infrastructure**. I enjoy building systems that are reliable, high performance, and designed to hold up under real use. 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake.svg" />
-  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake.svg" />
-</picture>
+My work sits around distributed systems, performance, and developer tooling, with a strong interest in how good architecture compounds over time. I like working close to the systems layer and thinking deeply about scalability and long-term design.
 
----
+**I build tools because I need them.** When I hit the same friction twice, I turn it into a library, framework, or SDK that makes the next project faster and more predictable. I build and contribute to open source, and I spend a lot of time turning ideas into working systems—especially around agents and developer infrastructure.
 
-### 🌟 Philosophy
-*"The problem defines the tool, not past experience."*  
-Whether it’s crafting software or solving everyday challenges, I believe in staying flexible and open to exploring new solutions.
+<br />
 
----
+### ❖ Featured Projects
 
-### 🙌 Thanks for stopping by!  
-Feel free to browse my repositories, star your favorites, or drop me a message. Let’s build something amazing together!
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/arpan404/afk">AFK (Agent Forge Kit)</a></b>
+      <p>Production-grade framework for building deterministic, observable agent systems in Python. Designed for orchestration beyond a chat loop.</p>
+      <a href="https://github.com/arpan404/afk"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="AFK Repo" /></a>
+      <a href="https://afk.arpan.sh"><img src="https://img.shields.io/badge/Docs-0B7285?style=flat-square&logo=readthedocs&logoColor=white" height="20" alt="AFK Docs" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/socioy/joor">socioy/joor</a></b>
+      <p>High-performance, type-safe backend framework for TypeScript/JavaScript designed to run across multiple runtimes without giving up speed or correctness.</p>
+      <a href="https://github.com/socioy/joor"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="Joor Repo" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/socioy/bumblebee">socioy/bumblebee</a></b>
+      <p>AI-powered Python package for natural, human-like mouse and keyboard control. Built for agentic automation where "robotic" UI scripts break.</p>
+      <a href="https://github.com/socioy/bumblebee"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="Bumblebee Repo" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/arpan404/cui">cui</a></b>
+      <p>Cross-platform React UI framework that keeps web and native components aligned behind a single API. Focuses on consistency and shared primitives.</p>
+      <a href="https://github.com/arpan404/cui"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="cui Repo" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/arpan404/docsy">docsy</a></b>
+      <p>Documentation site generator built on Astro from MDX. A Mintlify-compatible alternative with a straightforward, repo-friendly workflow.</p>
+      <a href="https://github.com/arpan404/docsy"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="docsy Repo" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/arpan404/tcon">tcon</a></b>
+      <p>Zero-dependency Rust configuration compiler built for predictable outputs. Useful for config validation without pulling in a heavy runtime.</p>
+      <a href="https://github.com/arpan404/tcon"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="tcon Repo" /></a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+### ❖ Operating Principles
+
+- **Determinism & Correctness**: Systems must do what they say they do.
+- **Observability**: If it breaks, it should explain why.
+- **Performance**: Speed is a feature, minimal overhead is a requirement.
+- **Ergonomics**: Good developer experience shouldn't compromise the safety of the underlying architecture.
+
+<br />
+
+### ❖ Activity & Collaboration
+
+If you want to collaborate, ship something ambitious, or exchange ideas, feel free to reach out. The fastest path is usually a small issue describing the goal and constraints, or a focused PR with a short rationale.
+
+<div align="center">
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake.svg" />
+    <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/arpan404/arpan404/output/github-snake.svg" />
+  </picture>
+  <br/><br/>
+  <i>The problem defines the tool, not past experience. I try to stay flexible, keep solutions simple, and optimize for systems that are easy to run and hard to break.</i>
+</div>
