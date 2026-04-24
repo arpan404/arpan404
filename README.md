@@ -50,7 +50,7 @@
 
 Software engineer focused on **AI systems and infrastructure**. I enjoy building systems that are reliable, high performance, and designed to hold up under real use. 
 
-My work sits around distributed systems, performance, and developer tooling, with a strong interest in how good architecture compounds over time. I like working close to the systems layer and thinking deeply about scalability and long-term design.
+My work focuses on distributed systems, performance, and developer tooling, with a strong interest in how good architecture compounds over time. I enjoy working close to the systems layer and thinking deeply about scalability and long-term design.
 
 **I build tools because I need them.** When I hit the same friction twice, I turn it into a library, framework, or SDK that makes the next project faster and more predictable. I build and contribute to open source, and I spend a lot of time turning ideas into working systems—especially around agents and developer infrastructure.
 
@@ -80,7 +80,7 @@ My work sits around distributed systems, performance, and developer tooling, wit
     </td>
     <td width="50%" valign="top">
       <b><a href="https://github.com/arpan404/cui">cui</a></b>
-      <p>Cross-platform React UI framework that keeps web and native components aligned behind a single API. Focuses on consistency and shared primitives.</p>
+      <p>Cross-platform React UI framework that keeps web and native components aligned behind a single API. It focuses on consistency and shared primitives.</p>
       <a href="https://github.com/arpan404/cui"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="cui Repo" /></a>
     </td>
   </tr>
@@ -104,8 +104,8 @@ My work sits around distributed systems, performance, and developer tooling, wit
 
 - **Determinism & Correctness**: Systems must do what they say they do.
 - **Observability**: If it breaks, it should explain why.
-- **Performance**: Speed is a feature, minimal overhead is a requirement.
-- **Ergonomics**: Good developer experience shouldn't compromise the safety of the underlying architecture.
+- **Performance**: Speed is a feature; minimal overhead is a requirement.
+- **Ergonomics**: A good developer experience shouldn't compromise the safety of the underlying architecture.
 
 <br />
 
