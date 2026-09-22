@@ -12,7 +12,7 @@
   <a href="mailto:contact@arpan.sh">Email</a>
 </p>
 
-Currently building **[SkelaDB](https://skeladb.com)**, continuing work on **[Joor](https://github.com/arpan404/joor)**, and independently developing an AI product in stealth. Computer science student at [Southern Miss](https://www.usm.edu/) and a 2024 Generation Google Scholar.
+Currently building **[SkelaDB](https://skeladb.com)**, a serverless PostgreSQL platform, continuing work on **[Joor](https://github.com/arpan404/joor)**, and independently developing an AI product in stealth. Computer science student at [Southern Miss](https://www.usm.edu/) and a 2024 Generation Google Scholar.
 
 ## Projects
 
@@ -20,7 +20,7 @@ Currently building **[SkelaDB](https://skeladb.com)**, continuing work on **[Joo
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://skeladb.com">SkelaDB</a></h3>
-      <p>PostgreSQL branching and idle compute suspension in your own cloud. Separates compute from storage so database instances can stop while their data stays available.</p>
+      <p>A serverless PostgreSQL platform with database branching and idle compute suspension in your own cloud. Separates compute from storage so database instances can stop while their data stays available.</p>
       <p><sub>Rust · PostgreSQL · Kubernetes</sub></p>
       <p><a href="https://github.com/arpan404/skelaDB">Releases and installer</a> · <a href="https://arpan.sh/projects/skeladb">How it works</a></p>
     </td>
